@@ -9,6 +9,8 @@
     <p style="margin-left: 40px">Your Email Address:</p>
     <p style="margin-left: 40px">
         <asp:TextBox ID="TBMail" runat="server" Width="205px"></asp:TextBox>
+    &nbsp;&nbsp;&nbsp;
+        <asp:RequiredFieldValidator ID="RFVMail" runat="server" ControlToValidate="TBMail" ErrorMessage="***Please enter your email."></asp:RequiredFieldValidator>
     </p>
     <p style="margin-left: 40px">Your Message:</p>
     <p style="margin-left: 40px">
@@ -18,6 +20,8 @@
         <asp:Button ID="BtnClear" runat="server" Text="Clear" />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         <asp:Button ID="BtnSubmit" runat="server" Text="Submit" />
+    &nbsp;&nbsp;&nbsp;
+        <asp:RequiredFieldValidator ID="RFVMessage" runat="server" ControlToValidate="TBMessage" ErrorMessage="***Please enter your message."></asp:RequiredFieldValidator>
     </p>
 
 </asp:Content>
