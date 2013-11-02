@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+    <siteMapNode url="" title=""  description="">
+      <siteMapNode url="~/default.aspx" title="Home"  description="" />
+      
+      <siteMapNode url="~/ViewAllCharacters.aspx" title="All Characters"  description="" >
+
+        <siteMapNode url="~/Search.aspx" title="Search"  description="" />
+        <siteMapNode url="~/AddNewCharacter.aspx" title="Add New Character"  description="" />
+        <siteMapNode url="~/StrawHat.aspx" title="Straw Hat Pirates"  description="" />
+        <siteMapNode url="~/Marines.aspx" title="Marines"  description="" />
+        <siteMapNode url="~/FourEmperors.aspx" title="Four Emperors"  description="" />
+        <siteMapNode url="~/RoyalSeven.aspx" title="Royal Seven Warlords"  description="" />
+          
+      </siteMapNode>
+
+      <siteMapNode url="~/Highlight.aspx" title="Highlights"  description="" />
+      
+      <siteMapNode url="~/AboutUs.aspx" title="About Us"  description="" />
+      
+      <siteMapNode url="~/ContactUs.aspx" title="Contact Us"  description="" />
+      
+     </siteMapNode>
+</siteMap>

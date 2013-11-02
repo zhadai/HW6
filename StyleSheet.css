@@ -1,0 +1,273 @@
+﻿body {
+    background-color:#000;
+}
+h1 {
+    color: black;
+    font-size: 35px;
+}
+
+#header {
+    color: black;
+    font-size: 60px;
+    text-align: center;
+    height: auto;
+    padding-top: 5px;
+    font-family: 'Agency FB';
+    font-weight: 700;
+    margin: 0 auto;
+    width: 800px;
+}
+
+#nav {
+    text-align: center;
+    color: black;
+    font-size: 20px;
+    height: 40px;
+    padding-top: 5px;
+    margin: 0 auto;
+    width: 788px;
+}
+#page {
+    width: 1030px;
+    margin: 0 auto;
+    margin-top: 10px;
+    height: auto;
+    padding: 10px;
+    font-family: Arial Narrow;
+    background-color:#fff;
+}
+#wrap {
+    width: 1000px;
+    margin: 0 auto;
+    margin-top: 10px;
+    height: auto;
+    padding: 10px;
+    font-family: Arial Narrow;
+}
+#rsidebar {
+    float: left;
+    width: 300px;
+    height: auto;
+    margin-left:20px;
+}
+
+/*For character details*/
+#picture {
+    float: left;
+    width: 350px;
+    height: auto;
+    margin-left: 100px;
+}
+
+#table {
+    float: left;
+    width: 400px;
+    height: auto;
+    margin-left: 30px;
+}
+/*end*/
+
+#main {
+    float: left;
+    height: auto;
+    width: 530px;
+    margin-left: 80px;
+}
+#footer {
+    clear: both;
+    padding: 5px 10px;
+}
+    #footer p {
+        margin: 0;
+        font-style: italic;
+        text-align: center;
+        font-size: small;
+}
+
+.level1 {
+    color: #000;
+    background-color: #1387f7;
+    padding: 5px;
+    width: 150px;
+    height: auto;
+    text-align: center;
+    border: 1px solid #fff;
+    font-size: 16px;
+}
+
+    .level1 a:hover {
+        background-color: #f00;
+        border: 1px solid #fff;
+    }
+
+.level2 {
+    color: #000;
+    background-color: #1387f7;
+    padding: 5px;
+    width: 144px;
+    height: auto;
+    text-align: center;
+    border: 1px solid #fff;
+    font-size: 16px;
+}
+    .level2 a:hover {
+        background-color: #f00;
+        border: 1px solid #fff;
+    }
+
+
+/* CSS to format a detailsview --START */
+
+
+.cssdetailsview {
+    font-family: "Comic Sans MS";
+    background-color: #fff;
+    margin: 5px 0 10px 0;
+    border: solid 1px #1387f7;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+
+    .cssdetailsview td {
+        padding: 10px;
+        border: solid 1px #1387f7;
+        color: #000;
+        text-align: left;
+    }
+
+
+    .cssdetailsview .header td {
+        text-align: center;
+        padding: 4px 2px;
+        color: #000;
+        background: #1387f7;
+        border-left: solid 1px #1387f7;
+    }
+
+
+    .cssdetailsview .fieldheader {
+        color: #000;
+        width: 150px;
+        text-align: right;
+    }
+
+
+    .cssdetailsview .altrow {
+        background: #fcfcfc url(./images/grd_alt.png) repeat-x top;
+    }
+
+
+    .cssdetailsview .command {
+        background: #1387f7;
+        line-height: 20px;
+    }
+
+        .cssdetailsview .command td {
+            text-align: center;
+        }
+
+        .cssdetailsview .command a {
+            color: #000;
+            text-decoration: none;
+            padding: 10px;
+        }
+
+            .cssdetailsview .command a:hover {
+                color: #fff;
+                text-decoration: underline;
+            }
+
+
+.cssdetailsview .pager {}
+
+
+/* CSS to format a detailsview --END */
+
+/* CSS to format a gridview -- START*/
+
+
+.cssgridview {
+    width: 100%;
+    margin: 5px 0 10px 0;
+    border: solid 1px #1387f7;
+    border-collapse: collapse;
+    text-align: center;
+    font-family: "Comic Sans MS";
+    color: #000;
+    background-color: #fff;
+}
+
+
+    .cssgridview td {
+        padding: 10px;
+        border: solid 1px #1387f7;
+        color: #000;
+    }
+
+        .cssgridview td a, a:visited {
+            color: #000;
+            text-decoration: none;
+        }
+
+        .cssgridview td a:hover {
+            color: #f00;
+            text-decoration:underline;
+        }
+
+    .cssgridview th {
+        padding: 10px;
+        color: #000;
+        background: #1387f7;
+        border-left: solid 1px #1387f7;
+        font-size: 0.9em;
+    }
+
+        .cssgridview th a {
+            color: #000;
+            text-decoration: none;
+        }
+
+            .cssgridview th a:hover {
+                color: #fff;
+                text-decoration: underline;
+            }
+
+
+    .cssgridview .alt {
+        background: #fcfcfc url(./images/grd_alt.png) repeat-x top;
+    }
+
+
+    .cssgridview .pgr {
+        background: #1387f7;
+    }
+
+        .cssgridview .pgr table {
+            margin: 5px 0;
+        }
+
+        .cssgridview .pgr td {
+            border-width: 0;
+            padding: 0 6px;
+            border-left: solid 1px #1387f7;
+            font-weight: bold;
+            color: #fff;
+            line-height: 12px;
+        }
+
+        .cssgridview .pgr a {
+            color: #000;
+            text-decoration: none;
+        }
+
+            .cssgridview .pgr a:hover {
+                color: #fff;
+                text-decoration: underline;
+            }
+
+
+/* CSS to format a gridview -- END*/
+
+
+

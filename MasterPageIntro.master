@@ -1,0 +1,48 @@
+﻿<%@ Master Language="VB" CodeFile="MasterPageIntro.master.vb" Inherits="MasterPageIntro" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link rel="stylesheet" type="text/css" href="StyleSheet.css" />
+    <link rel="shortcut icon" href="./images/OnePieceIcon.ico" />
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div id="page">
+            <div id="nav">
+
+                <asp:Menu ID="Menu1" runat="server" DataSourceID="SiteMapDataSource1" Orientation="Horizontal" DynamicEnableDefaultPopOutImage="False" StaticEnableDefaultPopOutImage="False">
+                    <LevelMenuItemStyles>
+                        <asp:MenuItemStyle CssClass="level1"/>
+                        <asp:MenuItemStyle CssClass="level2"/>
+                    </LevelMenuItemStyles>
+                </asp:Menu>
+
+                <asp:SiteMapDataSource ID="SiteMapDataSource1" runat="server" showstartingnode="false" />
+
+            </div>
+            <div id="header">
+                <asp:Label ID="CurrentTime" runat="server"></asp:Label>
+                <br />
+                <asp:Image ID="imgLogo" runat="server" ImageUrl="~/images/logo.png" />
+            </div>
+            <div id="wrap">
+
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                    </asp:ContentPlaceHolder>
+               
+            </div>
+            <div id="footer">
+                <p>
+                    <asp:Image ID="imgFooter" runat="server" ImageUrl="~/images/footer.jpg" />
+                </p>
+                <p><marquee behavior="scroll" direction="left" scrollamount="2">&copy;2013 Zhaoyang Dai - This is the homework6 for Software Design. </marquee></p>
+            </div>
+        </div>
+    </form>
+</body>
+</html>
